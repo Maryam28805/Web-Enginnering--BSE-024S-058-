@@ -1,16 +1,30 @@
 # ByteBazaar - Tech Store Website
 
-Web Engineering - Assignment 1 (HTML and CSS only, no JavaScript)
+**NAME: MARYAM IMRAN
+ROLL NO: BSE-24S-058
+SECTION: SE-6B
+COURSE: WEB ENGINEERING**
 
-## Architecture note
+Web Engineering - Assignment 1 
+1. How many pages are there and what are they?
 
-**Pages (9):** Home, All Products, Laptops, Phones, Accessories, Deals, About, FAQ, Contact.
+My website, ByteBazaar, consists of 9 pages:
+1. Home
+2. All Products
+3. Laptops
+4. Phones
+5. Accessories
+6. Deals
+7. About
+8. FAQ
+9. Contact
+2. How does navigation work?
 
-**Navigation:** Every page has the same header with links to all 9 pages. The current page is highlighted with the `active` class. The footer has extra links. Product buttons lead to the Contact page to place an order. The nav wraps on small screens, so no JavaScript menu is needed.
+The website has a navigation bar at the top of each page. Users can click links to visit different pages, such as Home, Products, Laptops, Phones, and Contact. Product cards also contain links to the Contact page for placing orders.
 
-**Images:** All pictures are in the `images/` folder and are added with the `<img>` tag. File names are listed in `images/README.txt`.
+3. How did you use CSS?
 
-**CSS:** One shared file, `style.css`, is linked in every page. It uses CSS variables for colors, Flexbox for the header, Grid for product cards and page layouts, hover and focus styles, and a media query for mobile screens. The FAQ uses the HTML `<details>` tag, so it opens and closes without JavaScript.
+I used CSS to make the website attractive, organized, and responsive. I applied colors, fonts, spacing, borders, and hover effects to improve its appearance. CSS Grid and Flexbox were used to arrange product cards and categories. Media queries help the layout adjust to smaller screens.
 
 ## Run locally
 Open `index.html` in a browser.
