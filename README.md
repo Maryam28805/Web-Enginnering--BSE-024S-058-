@@ -20,7 +20,8 @@ My website, ByteBazaar, consists of 9 pages:
 9. Contact
 
 
-2. How does navigation work?
+
+2.How does navigation work?
 
 The website has a navigation bar at the top of each page. Users can click links to visit different pages, such as Home, Products, Laptops, Phones, and Contact. Product cards also contain links to the Contact page for placing orders.
 
