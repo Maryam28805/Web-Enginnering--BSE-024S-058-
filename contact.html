@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | ByteBazaar</title>
+    <meta name="description" content="ByteBazaar - laptops, phones and accessories in Karachi.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrap nav">
+            <a class="logo" href="index.html">Byte<span>Bazaar</span></a>
+            <nav aria-label="Main">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">All Products</a></li>
+                    <li><a href="laptops.html">Laptops</a></li>
+                    <li><a href="phones.html">Phones</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                    <li><a href="deals.html">Deals</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="wrap page-head">
+            <h1>Contact and orders</h1>
+            <p>Tell us what you want and we will reply within a few hours.</p>
+        </div>
+        <section>
+            <div class="wrap contact-grid">
+                <form action="mailto:hello@bytebazaar.example" method="post" enctype="text/plain">
+                    <label>Your name<input type="text" name="name" required></label>
+                    <label>Phone number<input type="tel" name="phone" required></label>
+                    <label>Product<select name="product">
+                            <option>Laptop</option>
+                            <option>Phone</option>
+                            <option>Accessory</option>
+                            <option>Other</option>
+                        </select></label>
+                    <label>Message<textarea name="message" rows="5"
+                            placeholder="Which model do you want?"></textarea></label>
+                    <button class="btn" type="submit">Send order request</button>
+                </form>
+                <div>
+                    <h2>Visit the shop</h2>
+                    <p>Shop 12, Tariq Road, Karachi</p>
+                    <p>Open daily, 11am to 9pm</p>
+                    <p>Phone: 0300-0000000<br>Email: hello@bytebazaar.example</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrap foot">
+            <div><strong style="color:#fff">ByteBazaar</strong>
+                <p>Shop 12, Tariq Road, Karachi<br>Open daily, 11am to 9pm</p>
+            </div>
+            <ul>
+                <li><a href="laptops.html">Laptops</a></li>
+                <li><a href="phones.html">Phones</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="deals.html">Deals</a></li>
+            </ul>
+            <div>
+                <p>hello@bytebazaar.example<br>0300-0000000</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
